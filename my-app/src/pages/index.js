@@ -159,14 +159,14 @@ export default function Home() {
         return <button className={styles.button}>Loading...</button>;
       } else {
         return (
-          <button onClick={addAddressToWhitelist} className={styles.button}>
+          <button onPress={addAddressToWhitelist} className={styles.button}>
             Join the Whitelist
           </button>
         );
       }
     } else {
       return (
-        <button onClick={connectWallet} className={styles.button}>
+        <button onPress={connectWallet} className={styles.button}>
           Connect your wallet
         </button>
       );
